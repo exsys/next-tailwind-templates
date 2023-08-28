@@ -16,8 +16,6 @@ import { useState } from "react";
  */
 
 export default function Header3() {
-    const [active, setActive] = useState(false);
-
     return (
         <header>
             <div className="flex items-center justify-between w-3/4 mx-auto py-6">
@@ -31,11 +29,15 @@ export default function Header3() {
                         <Link href={"/"} className="hover:text-slate-400">About</Link>
                         <Link href={"/"} className="hover:text-slate-400">Contact</Link>
                     </nav>
-                    <div>
-                        <button className="border border-slate-500 rounded-md py-2 px-7
+                    <div className="flex gap-4">
+                        <Link href={"/"} className="border border-slate-500 rounded-md py-2 px-7
                         hover:bg-white/20">
                             Sign In
-                        </button>
+                        </Link>
+                        <Link href={"/"} className="border border-slate-500 rounded-md py-2 px-7
+                        hover:bg-white/20">
+                            Sign Up
+                        </Link>
                     </div>
                 </div>
             </div>
