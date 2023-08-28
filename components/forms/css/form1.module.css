@@ -1,0 +1,28 @@
+.email-input-icon,
+.password-input-icon {
+    position: relative;
+}
+
+.email-input-icon::before {
+    content: url("/icons/user-icon.svg");
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 35px;
+    height: 35px;
+    padding: 8px;
+}
+
+.password-input-icon::before {
+    content: url("/icons/lock-icon.svg");
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 35px;
+    height: 35px;
+    padding: 6px;
+}

@@ -7,6 +7,9 @@ import { Web3Button } from "@web3modal/react";
 
 // Normal Header with Web3 Wallet support
 
+// NOTE: you need to also install wagmi viem @web3modal/ethereum @web3modal/react and set up both files in /providers/wagmi
+// and wrap the app in the WagmiProvider
+
 /** NOTE: if you don't want sidescroll you will have to add overflow-x: hidden; to body and also add
  * viewport: {
     width: "device-width",
