@@ -1,5 +1,7 @@
 import Image from "next/image";
 
+// NOTE: if you want to swap img and text sides, just replace lg:flex-row with lg:flex-row-reverse
+
 export default function Container2() {
     return (
         <div className="h-full add-bg-img py-8">
