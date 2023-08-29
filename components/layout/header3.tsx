@@ -2,7 +2,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./css/header1.module.css";
-import { useState } from "react";
 
 // Header with accounts functionality
 
