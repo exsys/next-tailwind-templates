@@ -8,7 +8,7 @@ export default function Form2() {
     // TODO: add regex
     // TODO: add animations
 
-    const signinWithEmail = (e: any): void => {
+    const signUpWithEmail = (e: any): void => {
         e.preventDefault();
         console.log("clicked");
     }
@@ -16,7 +16,7 @@ export default function Form2() {
     return (
         <div className="bg-white w-full max-w-[370px] text-black p-8 rounded-xl drop-shadow-xl">
             <h1 className="text-center text-3xl font-medium mb-10">Sign Up</h1>
-            <form onSubmit={signinWithEmail}>
+            <form onSubmit={signUpWithEmail}>
                 <div className="flex flex-col mb-8">
                     <label htmlFor="email" className="mb-2 font-medium">Email</label>
                     <div className={`relative ${styles["email-input-icon"]}`}>
