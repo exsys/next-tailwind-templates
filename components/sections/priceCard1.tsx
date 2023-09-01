@@ -1,3 +1,4 @@
+"use client";
 import { IPriceCardInfo } from "@/assets/priceCardInfos";
 import Image from "next/image";
 
@@ -12,6 +13,10 @@ interface Props {
 ],*/
 
 export default function PriceCard1({ priceCard }: Props) {
+    const buttonClick = () => {
+        console.log("clicked");
+    }
+
     return (
         <div className="flex flex-col p-10 bg-white rounded-xl drop-shadow-main-lg max-w-[400px] mx-auto text-black">
             <div>
@@ -35,7 +40,8 @@ export default function PriceCard1({ priceCard }: Props) {
                 </ul>
             </div>
             <div className="mt-10">
-                <button className="bg-indigo-600 text-white rounded-md py-2 px-10 w-full hover:bg-indigo-500">
+                <button className="bg-indigo-600 text-white rounded-md py-2 px-10 w-full hover:bg-indigo-500"
+                onClick={() => buttonClick()}>
                     Buy Plan
                 </button>
             </div>
