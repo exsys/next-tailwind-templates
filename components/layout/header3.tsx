@@ -32,7 +32,7 @@ export default function Header3() {
                         hover:bg-white/20">
                             Sign In
                         </Link>
-                        <Link href={"/"} className="border border-slate-500 rounded-md py-2 px-7
+                        <Link href={"/"} className="border border-slate-500 rounded-md py-2 px-7 hidden sm:block
                         hover:bg-white/20">
                             Sign Up
                         </Link>
