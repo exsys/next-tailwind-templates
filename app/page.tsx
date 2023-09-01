@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <div className="text-white">
       <Header3 />
-      <Form2 />
+      <Form1 />
     </div>
   )
 }
