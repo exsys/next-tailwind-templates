@@ -24,7 +24,7 @@ export default function Form1() {
         if (!isValidEmail || !password) return;
 
         // TODO: auth
-        console.log("login...")
+        console.log("login...");
     }
 
     const checkErrors = () => {

@@ -9,12 +9,15 @@ import Footer2 from "@/components/layout/footer2";
 import Header1 from "@/components/layout/header1";
 import Header2 from "@/components/layout/header2";
 import Header3 from "@/components/layout/header3";
+import PriceCard1 from "@/components/sections/priceCard1";
+
+import { priceCards } from "@/assets/priceCardInfos";
 
 export default function Home() {
   return (
     <div className="text-white">
       <Header3 />
-      <Form1 />
+      <PriceCard1 priceCard={priceCards[0]} />
     </div>
   )
 }
