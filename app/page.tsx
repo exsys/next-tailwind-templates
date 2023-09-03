@@ -1,3 +1,7 @@
+// additional stuff
+import { priceCards } from "@/assets/priceCardInfos";
+
+// components
 import Container2 from "@/components/sections/container2";
 import Container1 from "@/components/sections/containers1";
 import Hero1 from "@/components/sections/hero1";
@@ -10,14 +14,17 @@ import Header1 from "@/components/layout/header1";
 import Header2 from "@/components/layout/header2";
 import Header3 from "@/components/layout/header3";
 import PriceCard1 from "@/components/design/priceCard1";
-
-import { priceCards } from "@/assets/priceCardInfos";
+import Sidebar1 from "@/components/layout/sidebar1";
+import Toggle1 from "@/components/utilities/toggle1";
 
 export default function Home() {
   return (
-    <div className="text-white">
-      <Header3 />
-      <PriceCard1 priceCard={priceCards[0]} />
+    <div className="text-white h-full">
+      
+      <div className="w-full h-full relative">
+        <Header3 />
+        <Toggle1 />
+      </div>
     </div>
   )
 }
