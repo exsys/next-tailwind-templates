@@ -22,3 +22,7 @@ body {
   overflow-x: hidden;
   background-color: black;
 }
+
+body, html {
+  height: 100%;
+}
