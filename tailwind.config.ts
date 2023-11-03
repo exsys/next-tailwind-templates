@@ -20,6 +20,20 @@ const config: Config = {
           "0 0 10px rgba(0, 0, 0, 0.07)",
           "0 0 5px rgba(0, 0, 0, 0.12)"
         ],
+      },
+      keyframes: {
+        "skeleton-light": {
+          "0%": { "background-color": "hsl(200, 20%, 80%)" },
+          "100%": { "background-color": "hsl(200, 20%, 95%)" },
+        },
+        "skeleton-dark": {
+          "0%": { "background-color": "hsl(204, 5%, 22%)" },
+          "100%": { "background-color": "hsl(210, 4%, 10%)" },
+        },
+      },
+      animation: {
+        "skeleton-light": "skeleton-light 1s linear infinite alternate",
+        "skeleton-dark": "skeleton-dark 1s linear infinite alternate",
       }
     },
   },

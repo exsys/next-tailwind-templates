@@ -6,7 +6,7 @@ interface Props {
     priceCard: IPriceCardInfo
 }
 
-// NOTE: add IPriceCardInfo, svg and following to tailwind.config.ts:
+// NOTE: add IPriceCardInfo, svg and following to dropShadow in tailwind.config.ts:
 /*"main-lg": [
     "0 0 10px rgba(0, 0, 0, 0.07)",
     "0 0 5px rgba(0, 0, 0, 0.12)"
