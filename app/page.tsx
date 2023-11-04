@@ -23,7 +23,7 @@ import CharCardSm from "@/components/cards/char-card";
 
 export default function Home() {
   return (
-    <div className="text-white h-full bg-white">
+    <div className="text-black h-full bg-white">
       
       <div className="w-full h-full relative">
         <Header1 />

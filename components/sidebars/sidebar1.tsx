@@ -7,6 +7,8 @@ import {
 } from "@heroicons/react/24/outline";
 import styles from "./css/sidebar.module.css";
 
+// NOTE: sidebar by itself won't move the content 
+
 export default function Sidebar1() {
     const [sidebarOpen, setSidebarOpen] = useState(true);
 
