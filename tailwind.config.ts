@@ -8,10 +8,20 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      colors: {
+        main: {
+          "light-bg-1": "#ff0080",
+          "light-bg-2": "",
+          "light-text-1": "",
+          "light-text-2": "",
+          "dark-bg-1": "",
+          "dark-bg-2": "",
+          "dark-text-1": "",
+          "dark-text-2": "",
+          "primary": "",
+          "secondary": "",
+          "tertiary": "",
+        },
       },
       dropShadow: {
         "main-sm": "0 0 3px #222",
@@ -20,6 +30,13 @@ const config: Config = {
           "0 0 10px rgba(0, 0, 0, 0.07)",
           "0 0 5px rgba(0, 0, 0, 0.12)"
         ],
+        "main-xl": [
+          "0 0 12px rgba(0, 0, 0, 0.1)",
+          "0 0 6px rgba(0, 0, 0, 0.7)"
+        ],
+      },
+      backgroundImage: {
+        "char-bg": "url('/images/bg3.png')",
       },
       keyframes: {
         "skeleton-light": {

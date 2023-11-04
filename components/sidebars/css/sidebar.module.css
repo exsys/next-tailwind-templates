@@ -1,0 +1,19 @@
+.sidebar {
+    transition: all 0.35s ease;
+}
+
+.sidebar-link {
+    transition: all 0.3s ease;
+}
+
+.menu-icon-line {
+    width: 2.25rem;
+    height: 0.185rem;
+    background-color: black;
+    border-radius: 0.25rem;
+    transition: all 0.3s;
+}
+
+.menu-icon-line:not(:first-child) {
+    margin-top: 0.5rem;
+}

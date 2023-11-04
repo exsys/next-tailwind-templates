@@ -1,3 +1,21 @@
+/*
+Add this to tailwind config (theme.extend):
+      keyframes: {
+        "skeleton-light": {
+          "0%": { "background-color": "hsl(200, 20%, 80%)" },
+          "100%": { "background-color": "hsl(200, 20%, 95%)" },
+        },
+        "skeleton-dark": {
+          "0%": { "background-color": "hsl(204, 5%, 22%)" },
+          "100%": { "background-color": "hsl(210, 4%, 10%)" },
+        },
+      },
+      animation: {
+        "skeleton-light": "skeleton-light 1s linear infinite alternate",
+        "skeleton-dark": "skeleton-dark 1s linear infinite alternate",
+      }
+
+*/
 export default function SkeletonBlock() {
     return (
         <div className="h-full">
