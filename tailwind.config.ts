@@ -38,6 +38,7 @@ const config: Config = {
         ],
       },
       backgroundImage: {
+        "hero-bg": "url('/images/bg3.png')",
         "char-bg": "url('/images/bg3.png')",
       },
       keyframes: {

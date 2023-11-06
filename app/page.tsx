@@ -20,16 +20,18 @@ import InfoPage from "@/components/sections/infopage";
 import SkeletonBlock from "@/components/loading/skeletonblock";
 import ImageCardSm from "@/components/cards/image-card-sm";
 import CharCardSm from "@/components/cards/char-card";
-import Glitch from "@/components/cards/glitch";
+import Glitch from "@/components/effects/glitch";
+import GlassCard1 from "@/components/cards/glass-card1";
+import GlassCard2 from "@/components/cards/glass-card2";
 
 export default function Home() {
   return (
-    <div className="text-black h-full bg-white">
+    <div className="text-black h-full bg-hero-bg bg-bottom">
 
       <div className="w-full h-full relative">
         <Header1 />
         <div className="h-full flex justify-center items-center">
-          <Glitch src="/images/char1.png" width={300} height={389} />
+          <GlassCard2 />
         </div>
       </div>
     </div>

@@ -26,3 +26,10 @@ body {
 body, html {
   height: 100%;
 }
+
+@layer utilities {
+  .card-glow {
+    filter: drop-shadow(0 50px 50px #04D9FF);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+}
