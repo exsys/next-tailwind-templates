@@ -20,14 +20,17 @@ import InfoPage from "@/components/sections/infopage";
 import SkeletonBlock from "@/components/loading/skeletonblock";
 import ImageCardSm from "@/components/cards/image-card-sm";
 import CharCardSm from "@/components/cards/char-card";
+import Glitch from "@/components/cards/glitch";
 
 export default function Home() {
   return (
     <div className="text-black h-full bg-white">
-      
+
       <div className="w-full h-full relative">
         <Header1 />
-        <Sidebar1 />
+        <div className="h-full flex justify-center items-center">
+          <Glitch src="/images/char1.png" width={300} height={389} />
+        </div>
       </div>
     </div>
   )
