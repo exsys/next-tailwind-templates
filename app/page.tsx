@@ -31,7 +31,7 @@ export default function Home() {
       <div className="w-full h-full relative">
         <Header1 />
         <div className="h-full flex justify-center items-center">
-          <GlassCard2 />
+          <ImageCardSm />
         </div>
       </div>
     </div>
