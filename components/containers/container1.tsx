@@ -3,7 +3,7 @@ import styles from "./css/container1.module.css";
 
 export default function Container1() {
     return (
-        <div className="h-screen add-bg-img">
+        <div className="h-screen">
             <div className="h-full flex items-center justify-center mx-5">
                 <div className="absolute w-[30%] h-full left-0 justify-start items-center hidden lg:flex">
                     <Image src={"/images/img1.png"} width={1284} height={1666} alt="img" priority />
@@ -17,10 +17,10 @@ export default function Container1() {
                     </div>
                 </div>
                 <div className="absolute w-[30%] h-full right-0 justify-start items-center hidden lg:flex">
-                    <Image src={"/images/img2.png"} width={1967} height={2750} alt="img" priority />
+                    <Image src={"/images/char2.png"} width={1967} height={2750} alt="img" priority />
                 </div>
                 <div className="absolute w-[150%] sm:w-[110%] lg:hidden">
-                    <Image src={"/images/img3.png"} width={2134} height={1418} alt="img" priority />
+                    <Image src={"/images/char3.png"} width={2134} height={1418} alt="img" priority />
                 </div>
             </div>
         </div>

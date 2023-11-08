@@ -2,6 +2,7 @@ import './globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import WagmiProvider from '@/providers/wagmi/wagmi';
+import AosProvider from '@/providers/aos';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -20,7 +21,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <body className={inter.className}>
         <WagmiProvider>
-          {children}
+          <AosProvider>
+            {children}
+          </AosProvider>
         </WagmiProvider>
       </body>
     </html>
