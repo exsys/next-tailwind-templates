@@ -1,5 +1,4 @@
 "use client";
-import { EnvelopeIcon, MapPinIcon, PhoneIcon } from "@heroicons/react/24/outline";
 import { useForm, SubmitHandler } from "react-hook-form";
 import TwitterBird from "../svgs/twitter-bird";
 import Discord from "../svgs/discord";
@@ -54,7 +53,7 @@ export default function Contact2() {
 
     return (
         <div className="w-full h-fit mt-40 md:mt-0">
-            <h1 className="text-center text-4xl font-semibold mb-8">Contact Us</h1>
+            <h1 className="text-center text-4xl font-semibold mb-8">Contact</h1>
             <div className="flex flex-col lg:flex-row gap-10 w-[96%] max-w-[1000px] mx-auto">
                 <div className="flex-1">
                     <h2 className="text-3xl font-semibold mb-2">Say Hello</h2>
