@@ -5,6 +5,7 @@ import TwitterBird from "../svgs/twitter-bird";
 import Discord from "../svgs/discord";
 import LinkedIn from "../svgs/linkedin";
 import Telegram from "../svgs/telegram";
+import Link from "next/link";
 
 type FormInputs = {
     name: string,
@@ -20,7 +21,7 @@ type FormInputs = {
  * npm i heroicons
  */
 
-export default function Contact1() {
+export default function Contact2() {
     const { register, handleSubmit, setValue, formState: { errors, isSubmitting } } = useForm<FormInputs>({
         defaultValues: {
             name: "",
@@ -87,56 +88,26 @@ export default function Contact1() {
                 <div className="flex-1 text-lg">
                     <h2 className="text-3xl font-semibold mb-2">Contact Info</h2>
                     <div className="mb-6">
-                        Or contact us directly
+                        Or contact me directly through one of my Social Media Accounts
                     </div>
                     <div className="flex flex-col gap-4 mb-6">
-                        <div className="flex items-center">
-                            <div className="border border-gray-500 rounded-full w-12 h-12 p-2 mr-3">
-                                <EnvelopeIcon />
-                            </div>
-                            <div>
-                                <h3 className="text-xl font-medium">Email</h3>
-                                <div>johndoe@email.com</div>
-                            </div>
-                        </div>
-                        <div className="flex items-center">
-                            <div className="border border-gray-500 rounded-full w-12 h-12 p-2 mr-3">
-                                <PhoneIcon />
-                            </div>
-                            <div>
-                                <h3 className="text-xl font-medium">Phone</h3>
-                                <div>+0123456789</div>
-                            </div>
-                        </div>
-                        <div className="flex items-center">
-                            <div className="border border-gray-500 rounded-full w-12 h-12 p-2 mr-3">
-                                <MapPinIcon />
-                            </div>
-                            <div>
-                                <h3 className="text-xl font-medium">Address</h3>
-                                <div>2661 Midland, Ecplise Street, Griffith 500</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <h3 className="text-xl mb-3 font-medium">Visit our Social Media and get connected</h3>
                         <div className="flex gap-4">
-                            <div className="w-12 h-12 rounded-full border border-gray-400 p-2 flex items-center justify-center
-                            cursor-pointer">
+                            <Link href={"https://www.x.com/exsysjj"} target="_blank"
+                                className="w-12 h-12 rounded-full border border-gray-400 p-2 flex items-center justify-center cursor-pointer">
                                 <TwitterBird />
-                            </div>
-                            <div className="w-12 h-12 rounded-full border border-gray-400 p-2 flex items-center justify-center
-                            cursor-pointer">
+                            </Link>
+                            <div title="@exsys"
+                                className="w-12 h-12 rounded-full border border-gray-400 p-2 flex items-center justify-center cursor-pointer">
                                 <Discord />
                             </div>
-                            <div className="w-12 h-12 rounded-full border border-gray-400 p-2 flex items-center justify-center
-                            cursor-pointer">
+                            <Link href={"https://www.linkedin.com/in/justin-meschankin-5057b8184/"} target="_blank"
+                                className="w-12 h-12 rounded-full border border-gray-400 p-2 flex items-center justify-center cursor-pointer">
                                 <LinkedIn />
-                            </div>
-                            <div className="w-12 h-12 rounded-full border border-gray-400 p-2 flex items-center justify-center
-                            cursor-pointer">
+                            </Link>
+                            <Link href={"https://t.me/exsysjj"} target="_blank"
+                                className="w-12 h-12 rounded-full border border-gray-400 p-2 flex items-center justify-center cursor-pointer">
                                 <Telegram />
-                            </div>
+                            </Link>
                         </div>
                     </div>
                 </div>

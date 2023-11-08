@@ -26,6 +26,7 @@ import GlassCard2 from "@/components/cards/glass-card2";
 import Hero2 from "@/components/heroes/hero2";
 import Testimonials1 from "@/components/sections/testimonials1";
 import Contact1 from "@/components/forms/contact1";
+import Contact2 from "@/components/forms/contact2";
 
 export default function Home() {
   return (
@@ -33,7 +34,7 @@ export default function Home() {
       <div className="w-full h-full relative">
         <Header1 />
         <div className="h-full flex justify-center items-center">
-          <Contact1 />
+          <Contact2 />
         </div>
       </div>
     </div>
