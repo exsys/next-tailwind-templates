@@ -27,6 +27,12 @@ body, html {
   height: 100%;
 }
 
+@layer components {
+  .header-padding {
+    @apply pt-28;
+  }
+}
+
 @layer utilities {
   .card-glow {
     filter: drop-shadow(0 50px 50px #04D9FF);

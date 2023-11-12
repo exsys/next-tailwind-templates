@@ -6,7 +6,7 @@ import Link from "next/link";
 
 // NOTE: don't forget to also import the logos and icons
 
-export default function Form1() {
+export default function SignIn1() {
     // TODO: add authentication
     // TODO: add oauth
     const [email, setEmail] = useState("");

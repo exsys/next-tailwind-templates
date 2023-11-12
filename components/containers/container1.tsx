@@ -6,7 +6,7 @@ export default function Container1() {
         <div className="h-screen">
             <div className="h-full flex items-center justify-center mx-5">
                 <div className="absolute w-[30%] h-full left-0 justify-start items-center hidden lg:flex">
-                    <Image src={"/images/img1.png"} width={1284} height={1666} alt="img" priority />
+                    <Image src={"/images/char1.png"} width={1284} height={1666} alt="img" priority />
                 </div>
                 <div className={`lg:max-w-[40%] text-center z-10 ${styles["text-shadow-black"]}`}>
                     <h1 className="text-5xl bold mb-16">Heading</h1>

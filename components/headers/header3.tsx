@@ -18,7 +18,7 @@ export default function Header3() {
         <header className="w-full absolute">
             <div className="flex items-center justify-between w-3/4 mx-auto py-6">
                 <Link href={"/"}>
-                    <Image src={"/logos/logo-placeholder.png"} width={105} height={56} alt="logo" priority />
+                    <Image src={"/logos/logo-dark.png"} width={105} height={56} alt="logo" priority />
                 </Link>
 
                 <div className="flex gap-10">

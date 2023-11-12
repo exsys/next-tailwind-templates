@@ -5,7 +5,7 @@ import { useState } from "react";
 
 // NOTE: don't forget to also import the logos and icons
 
-export default function Form2() {
+export default function SignUp1() {
     // TODO: add regex
     // TODO: add animations
     // TODO: add errors

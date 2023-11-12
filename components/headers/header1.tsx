@@ -19,7 +19,7 @@ export default function Header1() {
     const [active, setActive] = useState(false);
 
     return (
-        <header className="fixed w-full">
+        <header className="pl-[207px] absolute top-0 left-0 w-full">
             <div className="flex items-center justify-between w-3/4 mx-auto py-6">
                 <Link href={"/"}>
                     <Image src={"/logos/logo-dark.png"} width={105} height={56} alt="logo" priority />
