@@ -17,7 +17,7 @@ type FormInputs = {
  * NOTE:
  * don't forget to import the svgs and install dependencies:
  * npm i react-hook-form
- * npm i heroicons
+ * npm i @heroicons/react
  */
 
 export default function Contact1() {

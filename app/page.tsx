@@ -11,7 +11,7 @@ import Form2 from "@/components/forms/form2";
 import Footer1 from "@/components/footers/footer1";
 import Footer2 from "@/components/footers/footer2";
 import Header1 from "@/components/headers/header1";
-import Header2 from "@/components/headers/header2";
+import Web3Header from "@/components/headers/web3-header";
 import Header3 from "@/components/headers/header3";
 import PriceCard1 from "@/components/cards/priceCard1";
 import Sidebar1 from "@/components/sidebars/sidebar1";

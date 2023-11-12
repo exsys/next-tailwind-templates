@@ -19,7 +19,7 @@ import { Web3Button } from "@web3modal/react";
   to the metadata variable in layout.tsx
  */
 
-export default function Header2() {
+export default function Web3Header() {
     const [active, setActive] = useState(false);
 
     return (
