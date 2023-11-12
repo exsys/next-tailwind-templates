@@ -20,7 +20,7 @@ const config: Config = {
           "dark-bg-3": "",
           "dark-text-1": "",
           "dark-text-2": "",
-          "primary": "",            // can be used as accent color too
+          "primary": "#ff0080",            // can be used as accent color too
           "secondary": "",          
           "tertiary": "",           
         },

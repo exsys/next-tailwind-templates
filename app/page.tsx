@@ -27,6 +27,8 @@ import Hero2 from "@/components/heroes/hero2";
 import Testimonials1 from "@/components/sections/testimonials1";
 import Contact1 from "@/components/forms/contact1";
 import Contact2 from "@/components/forms/contact2";
+import ServiceCard from "@/components/cards/service-card";
+import { BanknotesIcon } from "@heroicons/react/24/outline";
 
 export default function Home() {
   return (
@@ -34,7 +36,9 @@ export default function Home() {
       <div className="w-full h-full relative">
         <Header1 />
         <div className="h-full flex justify-center items-center">
-          <Contact2 />
+          <div className="w-56">
+            <ServiceCard title="Hello" description="Peter" icon={<BanknotesIcon />} />
+          </div>
         </div>
       </div>
     </div>
