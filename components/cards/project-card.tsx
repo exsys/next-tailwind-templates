@@ -13,7 +13,7 @@ type Props = {
 
 export default function ProjectCard({ project, animationDelay }: Props) {
     return (
-        <article className="bg-main-bg3 drop-shadow-xl rounded-md overflow-hidden flex flex-col"
+        <div className="bg-main-bg3 drop-shadow-xl rounded-md overflow-hidden flex flex-col"
         data-aos="zoom-out-up" data-aos-duration="600" data-aos-delay={animationDelay}>
             <a href={project.link} target="_blank" className="bg-cover cursor-pointer relative">
                 <div className="absolute h-full w-full hover:backdrop-blur-sm group">
@@ -43,6 +43,6 @@ export default function ProjectCard({ project, animationDelay }: Props) {
                     ))}
                 </div>
             </div>
-        </article>
+        </div>
     )
 }
