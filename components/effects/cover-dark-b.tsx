@@ -1,6 +1,7 @@
 /**
  * NOTE: set relative on parent so its correctly positioned.
  * And set relative on siblings so z index is correct.
+ * Will darken bottom of element
  */
 
 export default function CoverDarkB() {

@@ -13,6 +13,9 @@ type Props = {
  * 
  */
 
+// TODO: mach aus dem inneren gradient ein eigenen component, apply ihn, und remove classNameInner
+// änder classNameOuter zu className und kombinier styles von hier mit className durch prop
+
 export default function CardGradientDark({ from, to, border, classNameOuter, classNameInner, children }: Props) {
     return (
         <div className={`bg-gradient-to-b ${from} ${to} ${border && `border ${border}`}
