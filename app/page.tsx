@@ -32,6 +32,7 @@ import { BanknotesIcon } from "@heroicons/react/24/outline";
 import ProjectCard from "@/components/cards/project-card";
 import { PROJECTS } from "@/assets/projects";
 import Footer3 from "@/components/footers/footer3";
+import Carousel1 from "@/components/carousels/carousel1";
 
 export default function Home() {
   return (
@@ -39,7 +40,7 @@ export default function Home() {
       <div className="w-full h-full relative">
         <Header1 />
         <div className="header-padding flex justify-center">
-          <Footer3 />
+          <Carousel1 />
         </div>
       </div>
     </div>
