@@ -33,14 +33,18 @@ import ProjectCard from "@/components/cards/project-card";
 import { PROJECTS } from "@/assets/projects";
 import Footer3 from "@/components/footers/footer3";
 import Carousel1 from "@/components/carousels/carousel1";
+import CardGradientDark from "@/components/cards/card-gradient-dark";
+import CardGradientLight from "@/components/cards/card-gradient-light";
 
 export default function Home() {
   return (
-    <div className="text-black h-full bg-white bg-bottom">
+    <div className="text-black h-full bg-hero-bg bg-bottom">
       <div className="w-full h-full relative">
         <Header1 />
         <div className="header-padding flex justify-center">
-          <Carousel1 />
+          <CardGradientDark from="from-[#8855ff]" to="to-[#5e3cafcc]" border="border-main-primary" classNameOuter="w-[300px] h-[500px]">
+            <h1>test</h1>
+          </CardGradientDark>
         </div>
       </div>
     </div>

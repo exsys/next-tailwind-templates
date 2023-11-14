@@ -1,7 +1,6 @@
 /**
- * NOTE:
- * make sure other sibling elements have position set. like relative for example.
- * Or else z index probably won't work
+ * NOTE: set relative on parent so its correctly positioned.
+ * And set relative on siblings so z index is correct.
  */
 
 export default function CoverDark() {
