@@ -21,7 +21,7 @@ const config: Config = {
           "dark-text-1": "",
           "dark-text-2": "",
           "primary": "#ff0080",            // can be used as accent color too
-          "secondary": "",          
+          "secondary": "#ff0060",          
           "tertiary": "",           
         },
       },
@@ -40,6 +40,7 @@ const config: Config = {
       backgroundImage: {
         "hero-bg": "url('/images/bg3.png')",
         "char-bg": "url('/images/bg3.png')",
+        "join-bg": "url('/images/joinnow-bg.webp')",
       },
       keyframes: {
         "skeleton-light": {

@@ -1,4 +1,5 @@
 export interface Game {
+    url: string,
     src: string,
     title: string,
     description: string,

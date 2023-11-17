@@ -35,16 +35,17 @@ import Footer3 from "@/components/footers/footer3";
 import Carousel1 from "@/components/carousels/carousel1";
 import CardGradientDark from "@/components/cards/card-gradient-dark";
 import CardGradientLight from "@/components/cards/card-gradient-light";
+import ReviewCard from "@/components/cards/review-card";
+import { ALLGAMES } from "@/assets/games";
+import CTACard1 from "@/components/cards/cta-card1";
 
 export default function Home() {
   return (
-    <div className="text-black h-full bg-hero-bg bg-bottom">
+    <div className="text-black h-full bg-white bg-bottom">
       <div className="w-full h-full relative">
         <Header1 />
-        <div className="header-padding flex justify-center">
-          <CardGradientDark from="from-[#8855ff]" to="to-[#5e3cafcc]" border="border-main-primary" classNameOuter="w-[300px] h-[500px]">
-            <h1>test</h1>
-          </CardGradientDark>
+        <div className="header-padding justify-center w-full">
+          <CTACard1 src="/images/joinnow-bg.webp" title="Ready to Play?" subtitle="Join us now!" href="/" align="center" />
         </div>
       </div>
     </div>
