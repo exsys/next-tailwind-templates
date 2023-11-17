@@ -1,6 +1,10 @@
 /**
  * NOTE: parent element needs to have group and relative in className.
  * And siblings need to have position (eg relative) set, else z index wont work.
+ * <div className="relative">
+ *     <CardGlow />
+ *     // other content
+ * </div>
  */
 
 export default function CardGlow() {

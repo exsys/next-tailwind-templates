@@ -40,6 +40,14 @@ html {
   .main-btn-1:hover {
     @apply bg-main-secondary;
   }
+
+  .main-btn-2 {
+    @apply text-white rounded-md py-2.5 px-6 font-medium border border-white;
+  }
+
+  .main-btn-2:hover {
+    @apply border-gray-400;
+  }
 }
 
 @layer utilities {

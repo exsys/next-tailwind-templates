@@ -39,14 +39,18 @@ import ReviewCard from "@/components/cards/review-card";
 import { ALLGAMES } from "@/assets/games";
 import CTACard1 from "@/components/cards/cta-card1";
 import Newsletter1 from "@/components/newsletter/newsletter1";
+import GameRequirements from "@/components/sections/game-requirements";
+import AboutTheGame from "@/components/containers/about-the-game";
+import { GAMEPAGES } from "@/assets/game-pages";
+import Hero3 from "@/components/heroes/hero3";
 
 export default function Home() {
   return (
-    <div className="text-black h-full bg-black bg-bottom">
+    <div className="text-black h-full bg-white bg-bottom">
       <div className="w-full h-full relative">
         <Header1 />
-        <div className="header-padding justify-center w-full">
-          <Newsletter1 />
+        <div className="h-full justify-center w-full">
+          <Hero3 />
         </div>
       </div>
     </div>
