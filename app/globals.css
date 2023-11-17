@@ -23,13 +23,22 @@ body {
   background-color: black;
 }
 
-body, html {
+body,
+html {
   height: 100%;
 }
 
 @layer components {
   .header-padding {
     @apply pt-28;
+  }
+
+  .main-btn-1 {
+    @apply bg-main-primary text-white rounded-md py-2.5 px-6 font-medium;
+  }
+
+  .main-btn-1:hover {
+    @apply bg-main-secondary;
   }
 }
 
@@ -44,9 +53,11 @@ body, html {
   overflow: hidden;
   position: relative;
 }
+
 .embla__container {
   display: flex;
 }
+
 .embla__slide {
   flex: 0 0 100%;
   min-width: 0;

@@ -38,14 +38,15 @@ import CardGradientLight from "@/components/cards/card-gradient-light";
 import ReviewCard from "@/components/cards/review-card";
 import { ALLGAMES } from "@/assets/games";
 import CTACard1 from "@/components/cards/cta-card1";
+import Newsletter1 from "@/components/newsletter/newsletter1";
 
 export default function Home() {
   return (
-    <div className="text-black h-full bg-white bg-bottom">
+    <div className="text-black h-full bg-black bg-bottom">
       <div className="w-full h-full relative">
         <Header1 />
         <div className="header-padding justify-center w-full">
-          <CTACard1 src="/images/joinnow-bg.webp" title="Ready to Play?" subtitle="Join us now!" href="/" align="center" />
+          <Newsletter1 />
         </div>
       </div>
     </div>
