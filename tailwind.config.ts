@@ -83,6 +83,11 @@ const config: Config = {
           "60%": { filter: "blur(0)", "font-weight": "600", color: "#FFFFFF" },
           "90%": { filter: "blur(6px)", "font-weight": "400", color: "#E0287D" },
         },
+        shake: {
+          "from, to": { transform: "translate3d(0, 0, 0)" },
+          "10%, 50%, 90%": { transform: "translate3d(-21px, 0, 0)" },
+          "30%, 70%": { transform: "translate3d(21px, 0, 0)" },
+        },
       },
       animation: {
         "skeleton-light": "skeleton-light 1s linear infinite alternate",
@@ -90,6 +95,7 @@ const config: Config = {
         glitch: "glitch 5s step-end infinite",
         glitchImg1: "glitch 5s step-end infinite, opacity 5s step-end infinite, movement 10s step-end infinite",
         glitchImg2: "glitch 5s step-end infinite, opacity 5s step-end infinite, movement 8s step-end infinite",
+        shake: "shake 0.4s linear",
       }
     },
   },
